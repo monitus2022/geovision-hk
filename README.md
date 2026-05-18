@@ -6,8 +6,6 @@ An intelligent, production-grade **Multimodal Spatial-RAG (Retrieval-Augmented G
 
 ## Context
 This is an **SLC (Simple, Lovable, Complete)** project. Do not propose bloated enterprise microservices. Focus on clean data contracts, strict error boundaries, and defensive spatial query logic. Prioritize localized scope (Quarry Bay / Eastern District) before city-wide data scalability.
-
-[User Context: React Frontend on https://app.monitus.org]│ (Passes Photo + Lat/Long + Sensor Accuracy)▼[Backend Engine: FastAPI on https://api.monitus.org]│├── 1. PostGIS Bounding Box Filter (ST_DWithin Dynamic Radius)│      └── Database: PostgreSQL + PostGIS (Filtered HK LandsD GeoJSON)│├── 2. Multimodal Prompt Injection (Top 5 Closest Candidates + Photo)│▼[AI Vision Layer: Gemini Flash Multimodal API] (Deterministic Entity Verification)│▼ (Returns Structured JSON)[React Frontend UI Dynamic Results Card Presentation]
 ---
 
 ## 🛠️ Tech Stack & Boundary System

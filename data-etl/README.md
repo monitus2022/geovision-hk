@@ -1,3 +1,11 @@
+## Data-etl
+
+- Simple script for cronjob fetching `data.gov.hk` API to check update date. 
+- If data is more updated than our own compared with our metadata, new set of data is fetched.
+- Dataset is obtained as `.zip` format so `zipfile` is used to load geojson object into memory and process.
+- Output is saved in local geospatial database (`sqlite`) using `SpatiaLite`, add/update metadata as well
+- Upload db and raw data to Cloudflare Object Storage
+
 ### Data Source:
 
 https://portal.csdi.gov.hk/geoportal/#metadataInfoPanel

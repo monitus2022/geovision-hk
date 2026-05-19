@@ -4,6 +4,7 @@
 - If data is more updated than our own compared with our metadata, new set of data is fetched.
 - Dataset is obtained as `.zip` format so `zipfile` is used to load geojson object into memory and process.
 - Output is pushed to PostgresDB for backend usage
+- Whole ETL pipeline is triggered by Cron Job run once per day
 
 ```mermaid
 graph TD

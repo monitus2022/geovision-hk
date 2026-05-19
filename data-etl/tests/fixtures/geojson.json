@@ -1,0 +1,234 @@
+[
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        114.10622,
+                        22.430316
+                    ],
+                    [
+                        114.106243,
+                        22.430405
+                    ],
+                    [
+                        114.106099,
+                        22.430436
+                    ],
+                    [
+                        114.106093,
+                        22.430409
+                    ],
+                    [
+                        114.106054,
+                        22.430417
+                    ],
+                    [
+                        114.106044,
+                        22.430378
+                    ],
+                    [
+                        114.106084,
+                        22.430369
+                    ],
+                    [
+                        114.106078,
+                        22.430347
+                    ],
+                    [
+                        114.10622,
+                        22.430316
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "OBJECTID": 3,
+            "Shape_Length": 58.574836754048,
+            "Shape_Area": 171.274153056651,
+            "GeoRefNo": "2899032335",
+            "DateCreate": "20050430",
+            "BuildingBlockType": "Tower",
+            "BuildingCSUID": "2899032335T20050430",
+            "BuildingID": 1105760103,
+            "Status": "Active",
+            "BuildingNameEN": null,
+            "BuildingNameTC": null,
+            "BaseHeight": 63.1,
+            "TopHeight": 66.6,
+            "Storeys": null,
+            "StoreysInBasement": null,
+            "DateStamp": "20130712"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        114.086149,
+                        22.430314
+                    ],
+                    [
+                        114.086247,
+                        22.430284
+                    ],
+                    [
+                        114.086266,
+                        22.430336
+                    ],
+                    [
+                        114.086168,
+                        22.430366
+                    ],
+                    [
+                        114.086149,
+                        22.430314
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "OBJECTID": 4,
+            "Shape_Length": 33.4467642305523,
+            "Shape_Area": 64.7275486885949,
+            "GeoRefNo": "2693332328",
+            "DateCreate": "20050430",
+            "BuildingBlockType": "Tower",
+            "BuildingCSUID": "2693332328T20050430",
+            "BuildingID": 1105760209,
+            "Status": "Active",
+            "BuildingNameEN": "Kam Fuk Garden Block 8",
+            "BuildingNameTC": "錦福豪園第八座",
+            "BaseHeight": 19.9,
+            "TopHeight": 28.7,
+            "Storeys": null,
+            "StoreysInBasement": null,
+            "DateStamp": "20130712"
+        }
+    },
+    {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        114.14508,
+                        22.461754
+                    ],
+                    [
+                        114.14508,
+                        22.461736
+                    ],
+                    [
+                        114.145107,
+                        22.461738
+                    ],
+                    [
+                        114.145123,
+                        22.461737
+                    ],
+                    [
+                        114.145158,
+                        22.461737
+                    ],
+                    [
+                        114.145199,
+                        22.461736
+                    ],
+                    [
+                        114.1452,
+                        22.461736
+                    ],
+                    [
+                        114.145214,
+                        22.461738
+                    ],
+                    [
+                        114.145284,
+                        22.461744
+                    ],
+                    [
+                        114.145342,
+                        22.46174
+                    ],
+                    [
+                        114.145342,
+                        22.46174
+                    ],
+                    [
+                        114.145333,
+                        22.461778
+                    ],
+                    [
+                        114.145282,
+                        22.46177
+                    ],
+                    [
+                        114.145249,
+                        22.461767
+                    ],
+                    [
+                        114.145203,
+                        22.461763
+                    ],
+                    [
+                        114.145202,
+                        22.461783
+                    ],
+                    [
+                        114.145171,
+                        22.461784
+                    ],
+                    [
+                        114.145138,
+                        22.461785
+                    ],
+                    [
+                        114.145123,
+                        22.461782
+                    ],
+                    [
+                        114.145107,
+                        22.461779
+                    ],
+                    [
+                        114.145107,
+                        22.461777
+                    ],
+                    [
+                        114.145106,
+                        22.461757
+                    ],
+                    [
+                        114.14508,
+                        22.461754
+                    ]
+                ]
+            ]
+        },
+        "properties": {
+            "OBJECTID": 1,
+            "Shape_Length": 63.97999210695168,
+            "Shape_Area": 100.75654524619964,
+            "GeoRefNo": "3301135807",
+            "DateCreate": "20080623",
+            "BuildingBlockType": "Temporary Structure",
+            "BuildingCSUID": "3301135807T20080623",
+            "BuildingID": 1106120286,
+            "Status": "Active",
+            "BuildingNameEN": null,
+            "BuildingNameTC": null,
+            "BaseHeight": null,
+            "TopHeight": null,
+            "Storeys": null,
+            "StoreysInBasement": null,
+            "DateStamp": "20150223"
+        }
+    }
+]

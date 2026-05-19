@@ -3,8 +3,28 @@
 - Simple script for cronjob fetching `data.gov.hk` API to check update date. 
 - If data is more updated than our own compared with our metadata, new set of data is fetched.
 - Dataset is obtained as `.zip` format so `zipfile` is used to load geojson object into memory and process.
-- Output is saved in local geospatial database (`sqlite`) using `SpatiaLite`, add/update metadata as well
-- Upload db and raw data to Cloudflare Object Storage
+- Output is pushed to PostgresDB for backend usage
+
+```mermaid
+graph TD
+    A[ETL Script] 
+    subgraph aa[Create]
+        A --> B[Connect to Postgres]
+        B --> C[CREATE TABLE hk_buildings_staging ...]
+        C --> D[COPY / INSERT new data]
+        D --> E[Validate data]
+    end
+    subgraph bb[Replace]
+        E --> F[BEGIN TRANSACTION]
+        F --> G[DROP TABLE IF EXISTS hk_buildings_old]
+        G --> H[ALTER TABLE hk_buildings RENAME TO hk_buildings_old]
+        H --> I[ALTER TABLE hk_buildings_staging RENAME TO hk_buildings]
+        I --> J[COMMIT]
+        J --> K[DROP TABLE hk_buildings_old]
+    end
+    A --> 1[Upload geojson]
+    1 --> 2[Cloudflare object storage]
+```
 
 ### Data Source:
 

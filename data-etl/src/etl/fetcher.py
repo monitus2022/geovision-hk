@@ -4,7 +4,8 @@ import io
 import re
 import logging
 from geojson import load
-from src.config.settings import settings
+from schema.geojson import validate_geojson
+from config.settings import settings
 
 logger = logging.getLogger(__name__)
 
@@ -31,5 +32,7 @@ def fetch_geojson():
         
         logger.info(f"Extracting {geojson_filename}")
         with z.open(geojson_filename) as f:
-            return load(f)
+            data = load(f)
+            validate_geojson(data)
+            return data
 

@@ -27,6 +27,12 @@ graph TD
     1 --> 2[Cloudflare object storage]
 ```
 
+### Tech stack:
+- Zip file operation: `zipfile`
+- Object storage support: `boto3`
+- Cloud PostgreSQL DB: Neon
+- Script cron job worker: 
+
 ### Data Source:
 
 https://portal.csdi.gov.hk/geoportal/#metadataInfoPanel
